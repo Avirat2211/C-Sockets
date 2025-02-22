@@ -1,0 +1,47 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore dependency files
+*.d
+
+# Ignore compiled binary files
+*.bin
+*.elf
+*.map
+
+# Ignore debugging files
+*.log
+*.dbg
+*.stackdump
+
+# Ignore IDE-specific files
+*.swp
+*.swo
+*.DS_Store
+*.vscode/
+*.idea/
+*.vs/
+
+# Ignore auto-generated Makefiles and CMake cache
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Ignore compiled test results
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore temporary files
+*.tmp
+*.~*
